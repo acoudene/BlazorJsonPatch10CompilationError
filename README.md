@@ -8,3 +8,5 @@ Then I will get this error:
 
 But no error if I put this previous one: 
 `<PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="9.0.11" />`
+
+Link to issue: https://github.com/dotnet/aspnetcore/issues/64330#issuecomment-3552960743
