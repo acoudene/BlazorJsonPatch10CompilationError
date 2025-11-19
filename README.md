@@ -1,4 +1,4 @@
-Here a simple Blazor example where client part just referencing JsonPath assembly in .Net 10 and get compilation error.
+Here a simple Blazor example where client part just referencing JsonPatch assembly in .Net 10 and get compilation error.
 
 In summary, if I use in Client WebAssembly:
 `<PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="10.0.0" />`
@@ -10,3 +10,4 @@ But no error if I put this previous one:
 `<PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="9.0.11" />`
 
 Link to issue: https://github.com/dotnet/aspnetcore/issues/64330#issuecomment-3552960743
+
